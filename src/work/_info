@@ -1,0 +1,116 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/MANASA/Desktop/Lab2bonus/src
+vadder3to4
+Z0 !s110 1519504585
+!i10b 1
+!s100 @U^79j^Wld2R[iB^m<[h01
+I4g2@PImoaG0`ZPmlfCOIW1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src
+w1519434798
+8C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/adder3to4.v
+FC:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/adder3to4.v
+L0 4
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1519504584.000000
+!s107 C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/adder3to4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/adder3to4.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vLab2_bonus_Tempalli_M
+!s110 1519504583
+!i10b 1
+!s100 JjWmSe7V0A:BGhF<_Lk<<0
+I]PN>09dAZPD5SmW6`Y`jS2
+R1
+R2
+w1519504580
+8C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/Lab2_bonus_Tempalli_M.v
+FC:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/Lab2_bonus_Tempalli_M.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1519504583.000000
+!s107 C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/Lab2_bonus_Tempalli_M.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/Lab2_bonus_Tempalli_M.v|
+!i113 1
+R5
+R6
+n@lab2_bonus_@tempalli_@m
+vseven_seg_letters
+Z7 !s110 1519504584
+!i10b 1
+!s100 2Fk1NPf2M_PQIPQWH@em73
+I;;I_U@Mn_Rch^;nBej>Zd2
+R1
+R2
+w1519503555
+8C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_letters.v
+FC:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_letters.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_letters.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_letters.v|
+!i113 1
+R5
+R6
+vseven_seg_num
+R7
+!i10b 1
+!s100 8OCC1?eXXTLc=L]N2i=Y`2
+IKYog1FaDiC1UTeGa]45TM2
+R1
+R2
+w1519434163
+8C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_num.v
+FC:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_num.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_num.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_num.v|
+!i113 1
+R5
+R6
+vtb_top
+R0
+!i10b 1
+!s100 bOdJAEO=V;@zii0O1@Okl2
+IdFemjCTdR[SaBYMQOB`PO0
+R1
+R2
+w1519434281
+8C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/tb_top.v
+FC:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/tb_top.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1519504585.000000
+!s107 C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/tb_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/tb_top.v|
+!i113 1
+R5
+R6

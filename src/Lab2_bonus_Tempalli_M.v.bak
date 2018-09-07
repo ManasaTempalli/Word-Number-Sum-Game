@@ -1,0 +1,30 @@
+`define PARAM 4'b1111
+ module Lab2_bonus_Tempalli_M(input1, input2, show, sevenseg1, sevenseg2, sevenseg3, sevenseg4, sevensegnum1, sevensegnum2);
+ input [12:0] input1;
+ input [3:0] input2;
+ input show;
+ 
+ output[6:0] sevenseg1, sevenseg2, sevenseg3, sevenseg4, sevensegnum1, sevensegnum2;
+ reg[3:0] output1;
+
+ wire [3:0] input_sum;
+
+ seven_seg_letters letter1(input1[12:9], sevenseg1);
+ seven_seg_letters letter2(input1[8:6], sevenseg2);
+ seven_seg_letters letter3(input1[5:3], sevenseg3);
+ seven_seg_letters letter4(input1[2:0], sevenseg4);
+ seven_seg_num sevennum1(input2, sevensegnum1);
+ adder3to4 add1(input1[11:9], input1[8:6], input1[5:3], input1[2:0], input_sum);
+ always @ (input1, input2, input_sum)
+ begin
+ if(input_sum == input2)
+ begin
+ output1=input_sum;
+ end
+ else
+ begin
+ output1 = 4'b1111;
+ end
+ end
+ seven_seg_num sevennum2(output1, sevensegnum2);
+endmodule

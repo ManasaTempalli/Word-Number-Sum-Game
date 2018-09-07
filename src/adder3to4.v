@@ -1,0 +1,12 @@
+// ECE6370
+// Author: Manasa Tempalli 5355
+// Adder Module
+module adder3to4(num1, num2, num3, num4,sum);
+ input[2:0] num1, num2, num3, num4;
+ output[3:0] sum;
+ reg[3:0] sum;
+ always @ (num1, num2, num3, num4)
+ begin
+ sum = num1 + num2 + num3 + num4;
+ end
+endmodule

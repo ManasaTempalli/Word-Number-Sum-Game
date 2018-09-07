@@ -1,0 +1,27 @@
+C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/Lab2_bonus_Tempalli_M.v {0 {vlog -work work -stats=none C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/Lab2_bonus_Tempalli_M.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Lab2_bonus_Tempalli_M
+** Error: (vlog-13069) C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/Lab2_bonus_Tempalli_M.v(17): near ")": syntax error, unexpected ')', expecting ']' or ','.
+
+} {4.0 5.0} {}} C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_num.v {1 {vlog -work work -stats=none C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/seven_seg_num.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seven_seg_num
+
+Top level modules:
+	seven_seg_num
+
+} {} {}} C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/adder3to4.v {1 {vlog -work work -stats=none C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/adder3to4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder3to4
+
+Top level modules:
+	adder3to4
+
+} {} {}} C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/tb_top.v {1 {vlog -work work -stats=none C:/Users/MANASA/Desktop/Lab2_bonus_Tempalli_M/src/tb_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}}

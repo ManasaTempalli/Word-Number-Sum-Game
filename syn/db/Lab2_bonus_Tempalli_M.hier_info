@@ -1,0 +1,177 @@
+|Lab2_bonus_Tempalli_M
+input1[0] => input1[0].IN2
+input1[1] => input1[1].IN2
+input1[2] => input1[2].IN2
+input1[3] => input1[3].IN2
+input1[4] => input1[4].IN2
+input1[5] => input1[5].IN2
+input1[6] => input1[6].IN2
+input1[7] => input1[7].IN2
+input1[8] => input1[8].IN2
+input1[9] => input1[9].IN2
+input1[10] => input1[10].IN2
+input1[11] => input1[11].IN2
+input1[12] => input1[12].IN1
+input2[0] => input2[0].IN1
+input2[1] => input2[1].IN1
+input2[2] => input2[2].IN1
+input2[3] => input2[3].IN1
+sevenseg1[0] <= seven_seg_letters:letter1.port1
+sevenseg1[1] <= seven_seg_letters:letter1.port1
+sevenseg1[2] <= seven_seg_letters:letter1.port1
+sevenseg1[3] <= seven_seg_letters:letter1.port1
+sevenseg1[4] <= seven_seg_letters:letter1.port1
+sevenseg1[5] <= seven_seg_letters:letter1.port1
+sevenseg1[6] <= seven_seg_letters:letter1.port1
+sevenseg2[0] <= seven_seg_letters:letter2.port1
+sevenseg2[1] <= seven_seg_letters:letter2.port1
+sevenseg2[2] <= seven_seg_letters:letter2.port1
+sevenseg2[3] <= seven_seg_letters:letter2.port1
+sevenseg2[4] <= seven_seg_letters:letter2.port1
+sevenseg2[5] <= seven_seg_letters:letter2.port1
+sevenseg2[6] <= seven_seg_letters:letter2.port1
+sevenseg3[0] <= seven_seg_letters:letter3.port1
+sevenseg3[1] <= seven_seg_letters:letter3.port1
+sevenseg3[2] <= seven_seg_letters:letter3.port1
+sevenseg3[3] <= seven_seg_letters:letter3.port1
+sevenseg3[4] <= seven_seg_letters:letter3.port1
+sevenseg3[5] <= seven_seg_letters:letter3.port1
+sevenseg3[6] <= seven_seg_letters:letter3.port1
+sevenseg4[0] <= seven_seg_letters:letter4.port1
+sevenseg4[1] <= seven_seg_letters:letter4.port1
+sevenseg4[2] <= seven_seg_letters:letter4.port1
+sevenseg4[3] <= seven_seg_letters:letter4.port1
+sevenseg4[4] <= seven_seg_letters:letter4.port1
+sevenseg4[5] <= seven_seg_letters:letter4.port1
+sevenseg4[6] <= seven_seg_letters:letter4.port1
+sevensegnum1[0] <= seven_seg_num:sevennum1.port1
+sevensegnum1[1] <= seven_seg_num:sevennum1.port1
+sevensegnum1[2] <= seven_seg_num:sevennum1.port1
+sevensegnum1[3] <= seven_seg_num:sevennum1.port1
+sevensegnum1[4] <= seven_seg_num:sevennum1.port1
+sevensegnum1[5] <= seven_seg_num:sevennum1.port1
+sevensegnum1[6] <= seven_seg_num:sevennum1.port1
+sevensegnum2[0] <= seven_seg_num:sevennum2.port1
+sevensegnum2[1] <= seven_seg_num:sevennum2.port1
+sevensegnum2[2] <= seven_seg_num:sevennum2.port1
+sevensegnum2[3] <= seven_seg_num:sevennum2.port1
+sevensegnum2[4] <= seven_seg_num:sevennum2.port1
+sevensegnum2[5] <= seven_seg_num:sevennum2.port1
+sevensegnum2[6] <= seven_seg_num:sevennum2.port1
+
+
+|Lab2_bonus_Tempalli_M|seven_seg_letters:letter1
+seg_in[0] => Decoder0.IN3
+seg_in[0] => Decoder1.IN2
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[2] => Decoder1.IN1
+seg_in[3] => Decoder0.IN0
+seg_in[3] => Decoder1.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2_bonus_Tempalli_M|seven_seg_letters:letter2
+seg_in[0] => Decoder0.IN3
+seg_in[0] => Decoder1.IN2
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[2] => Decoder1.IN1
+seg_in[3] => Decoder0.IN0
+seg_in[3] => Decoder1.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2_bonus_Tempalli_M|seven_seg_letters:letter3
+seg_in[0] => Decoder0.IN3
+seg_in[0] => Decoder1.IN2
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[2] => Decoder1.IN1
+seg_in[3] => Decoder0.IN0
+seg_in[3] => Decoder1.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2_bonus_Tempalli_M|seven_seg_letters:letter4
+seg_in[0] => Decoder0.IN3
+seg_in[0] => Decoder1.IN2
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[2] => Decoder1.IN1
+seg_in[3] => Decoder0.IN0
+seg_in[3] => Decoder1.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2_bonus_Tempalli_M|seven_seg_num:sevennum1
+seg_in[0] => Decoder0.IN3
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[3] => Decoder0.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2_bonus_Tempalli_M|adder3to4:add1
+num1[0] => Add0.IN3
+num1[1] => Add0.IN2
+num1[2] => Add0.IN1
+num2[0] => Add0.IN6
+num2[1] => Add0.IN5
+num2[2] => Add0.IN4
+num3[0] => Add1.IN8
+num3[1] => Add1.IN7
+num3[2] => Add1.IN6
+num4[0] => Add2.IN8
+num4[1] => Add2.IN7
+num4[2] => Add2.IN6
+sum[0] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2_bonus_Tempalli_M|seven_seg_num:sevennum2
+seg_in[0] => Decoder0.IN3
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[3] => Decoder0.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
